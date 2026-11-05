@@ -1,0 +1,15 @@
+/**
+ * Accessibility styles
+ * 
+ * This file contains styles that improve accessibility for users with disabilities.
+ * It includes focus styles for interactive elements, ensuring they are easily navigable.
+ */
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}

@@ -1,0 +1,35 @@
+/**
+ * Layout
+ * ======
+ *
+ * This file contains the layout styles for the website.
+ */
+
+main {
+  padding: var(--space-3);
+  max-width: var(--width-large);
+  margin: var(--space-0) auto;
+}
+
+section {
+  margin-bottom: var(--space-5);
+}
+
+.meny-lista {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: var(--space-2);
+}
+
+.meny-lista article {
+  margin-bottom: 0;
+}
+
+@media (min-width: 600px) {
+  main {
+    padding: var(--space-3);
+  }
+}
+
+@media (min-width: 900px) {
+}

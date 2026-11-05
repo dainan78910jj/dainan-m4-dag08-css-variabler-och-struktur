@@ -1,0 +1,35 @@
+/**
+ * Article
+ * ==========
+ *
+ * Styles for the article component.
+ */
+
+article {
+  background-color: var(--color-page-background);
+  border: 1px solid var(--color-page-border);
+  border-radius: var(--border-radius-large);
+  padding: var(--space-4);
+  margin-bottom: var(--space-2);
+}
+
+article img,
+#om-oss img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-small);
+}
+
+.pris {
+  font-weight: 700;
+  color: var(--color-button-primary);
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article .pris {
+  margin-top: auto;
+}

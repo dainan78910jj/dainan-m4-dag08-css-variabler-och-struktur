@@ -1,0 +1,37 @@
+/********************************************************************
+ * Step 1. Create the variables
+ *
+ * Create the css/ folder and the css/variables.css file. Declare your variables inside 
+ * :root { ... }: include at least five colors, two fonts, and a spacing scale (8, 16, 24, 32, 48 px). 
+ * Naming examples: --color-primary, --font-heading, --space-2. 
+ ********************************************************************/
+
+:root {
+  --color-page-background: #fffaf3;
+  --color-heading-background: #5b3a29;
+  --color-footer-background: #2b1c14;
+  --color-button-primary: #8c1010;
+  --color-button-secondary: #6f0c0c;
+  --color-hero-background: #f3e3cf;
+  --color-page-border: #e3d5c3;
+  --color-text-invert: #ffffff;
+  --color-text: #222222;
+  --color-text-title: #3b2418;
+  --color-focus: #1a73e8;
+
+  --font-heading: Georgia, "Times New Roman", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --space-0: 0;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+
+  --width-large: 1100px;
+
+  --border-radius-large: 8px;
+  --border-radius-medium: 6px;
+  --border-radius-small: 4px;
+}

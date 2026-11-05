@@ -6,75 +6,75 @@
 }
 
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  color: #222222;
-  background-color: #fffaf3;
+  margin: var(--space-0);
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-page-background);
 }
 
 header {
-  background-color: #5b3a29;
-  color: #ffffff;
-  padding: 16px 24px;
+  background-color: var(--color-heading-background);
+  color: var(--color-text-invert);
+  padding: var(--space-2) var(--space-3);
 }
 
 header h1 {
-  margin: 0 0 8px;
+  margin: var(--space-0) var(--space-0) var(--space-1);
 }
 
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: var(--space-0);
+  padding: var(--space-0);
 }
 
 nav a {
-  color: #ffffff;
+  color: var(--color-text-invert);
 }
 
 main {
-  padding: 24px;
-  max-width: 1100px;
-  margin: 0 auto;
+  padding: var(--space-3);
+  max-width: var(--width-large);
+  margin: var(--space-0) auto;
 }
 
 section {
-  margin-bottom: 40px;
+  margin-bottom: var(--space-5);
 }
 
 article {
-  background-color: #ffffff;
-  border: 1px solid #e3d5c3;
-  border-radius: 8px;
-  padding: 16px;
-  margin-bottom: 16px;
+  background-color: var(--color-page-background);
+  border: 1px solid var(--color-page-border);
+  border-radius: var(--border-radius-large);
+  padding: var(--space-4);
+  margin-bottom: var(--space-2);
 }
 
 article img,
 #om-oss img {
   max-width: 100%;
   height: auto;
-  border-radius: 4px;
+  border-radius: var(--border-radius-small);
 }
 
 .knapp {
   display: inline-block;
-  background-color: #8c1010;
-  color: #ffffff;
-  padding: 12px 20px;
-  border: 0;
-  border-radius: 6px;
+  background-color: var(--color-button-primary);
+  color: var(--color-text-invert);
+  padding: var(--space-2) var(--space-3);
+  border: var(--space-0);
+  border-radius: var(--border-radius-medium);
   text-decoration: none;
 }
 
 footer {
-  background-color: #2b1c14;
-  color: #ffffff;
-  padding: 24px;
+  background-color: var(--color-footer-background);
+  color: var(--color-text);
+  padding: var(--space-3);
 }
 
 footer a {
-  color: #ffffff;
+  color: var(--color-text);
 }
 
 address {
@@ -83,7 +83,7 @@ address {
 
 /* ===== Dag 4: typografi och färg ===== */
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.6;
 }
@@ -91,38 +91,38 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: var(--font-heading);
   line-height: 1.2;
-  color: #3b2418;
+  color: var(--color-text-title);
 }
 
 header h1 {
-  color: #ffffff;
+  color: var(--color-text-invert);
   font-size: 1.75rem;
 }
 
 h2 {
   font-size: 1.75rem;
-  margin: 0 0 16px;
+  margin: var(--space-0) var(--space-0) var(--space-2);
 }
 
 h3 {
   font-size: 1.25rem;
-  margin: 12px 0 8px;
+  margin: var(--space-2) var(--space-0) var(--space-1);
 }
 
 .pris {
   font-weight: 700;
-  color: #8c1010;
+  color: var(--color-button-primary);
 }
 
 a {
-  color: #8c1010;
+  color: var(--color-button-primary);
   text-underline-offset: 3px;
 }
 
 a:hover {
-  color: #5e0a0a;
+  color: var(--color-button-secondary);
 }
 
 nav a {
@@ -130,7 +130,7 @@ nav a {
 }
 
 .knapp:hover {
-  background-color: #6f0c0c;
+  background-color: var(--color-button-secondary);
 }
 
 a:focus-visible,
@@ -138,14 +138,14 @@ button:focus-visible,
 input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
-  outline: 3px solid #1a73e8;
+  outline: 3px solid var(--color-focus);
   outline-offset: 2px;
 }
 
 #hero {
-  background-color: #f3e3cf;
-  padding: 32px 24px;
-  border-radius: 8px;
+  background-color: var(--color-hero-background);
+  padding: var(--space-4) var(--space-3);
+  border-radius: var(--border-radius-large);
 }
 
 #hero p {
@@ -156,7 +156,7 @@ textarea:focus-visible {
 /* Formulär */
 .falt,
 .val {
-  margin-bottom: 16px;
+  margin-bottom: var(--space-2);
 }
 
 label {
@@ -168,7 +168,7 @@ label {
 .val label {
   display: inline;
   font-weight: 400;
-  margin-left: 8px;
+  margin-left: var(--space-1);
 }
 
 input[type="text"],
@@ -179,22 +179,22 @@ select,
 textarea {
   width: 100%;
   max-width: 28rem;
-  padding: 10px 12px;
-  border: 2px solid #8a7a6a;
-  border-radius: 6px;
+  padding: var(--space-1) var(--space-2);
+  border: 2px solid var(--color-page-border);
+  border-radius: var(--border-radius-medium);
   font: inherit;
 }
 
 fieldset {
-  border: 1px solid #e3d5c3;
-  border-radius: 8px;
-  margin: 0 0 16px;
-  padding: 12px 16px;
+  border: 1px solid var(--color-page-border);
+  border-radius: var(--border-radius-medium);
+  margin: var(--space-0) var(--space-0) var(--space-2);
+  padding: var(--space-2) var(--space-3);
 }
 
 legend {
   font-weight: 700;
-  padding: 0 8px;
+  padding: var(--space-0) var(--space-1);
 }
 
 /* ===== Dag 5: Flexbox ===== */
@@ -203,23 +203,23 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 8px 24px;
+  gap: var(--space-1) var(--space-3);
 }
 
 header h1 {
-  margin: 0;
+  margin: var(--space-0);
 }
 
 nav ul {
   display: flex;
-  gap: 20px;
+  gap: var(--space-2);
 }
 
 footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 16px;
+  gap: var(--space-2);
 }
 
 article {
@@ -235,7 +235,7 @@ article .pris {
 .meny-lista {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 20px;
+  gap: var(--space-2);
 }
 
 .meny-lista article {
@@ -245,7 +245,7 @@ article .pris {
 #om-oss {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 8px 32px;
+  gap: var(--space-1) var(--space-3);
 }
 
 #om-oss h2 {
@@ -255,11 +255,11 @@ article .pris {
 /* ===== Dag 7: Responsiv design (mobile first) ===== */
 @media (min-width: 600px) {
   main {
-    padding: 32px;
+    padding: var(--space-3);
   }
 
   #hero {
-    padding: 56px 40px;
+    padding: var(--space-5) var(--space-4);
   }
 
   #hero h2 {
@@ -279,6 +279,6 @@ article .pris {
   }
 
   header {
-    padding: 20px 48px;
+    padding: var(--space-2) var(--space-3);
   }
 }

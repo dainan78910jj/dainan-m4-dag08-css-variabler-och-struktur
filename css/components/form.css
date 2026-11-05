@@ -1,0 +1,49 @@
+/**
+ * Form
+ * ======
+ *
+ * Styles for the form component.
+ */
+
+.falt,
+.val {
+  margin-bottom: var(--space-2);
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.val label {
+  display: inline;
+  font-weight: 400;
+  margin-left: var(--space-1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  max-width: 28rem;
+  padding: var(--space-1) var(--space-2);
+  border: 2px solid var(--color-page-border);
+  border-radius: var(--border-radius-medium);
+  font: inherit;
+}
+
+fieldset {
+  border: 1px solid var(--color-page-border);
+  border-radius: var(--border-radius-medium);
+  margin: var(--space-0) var(--space-0) var(--space-2);
+  padding: var(--space-2) var(--space-3);
+}
+
+legend {
+  font-weight: 700;
+  padding: var(--space-0) var(--space-1);
+}

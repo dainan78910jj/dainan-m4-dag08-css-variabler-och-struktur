@@ -1,0 +1,20 @@
+/**
+ * Button
+ * ======
+ *
+ * Styles for the button component.
+ */
+
+.knapp {
+  display: inline-block;
+  background-color: var(--color-button-primary);
+  color: var(--color-text-invert);
+  padding: var(--space-2) var(--space-3);
+  border: var(--space-0);
+  border-radius: var(--border-radius-medium);
+  text-decoration: none;
+}
+
+.knapp:hover {
+  background-color: var(--color-button-secondary);
+}

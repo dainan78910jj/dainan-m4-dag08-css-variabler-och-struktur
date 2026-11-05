@@ -1,0 +1,50 @@
+/**
+  * Base styles for the website.
+  * These styles are applied globally and provide a foundation for the rest of the CSS.
+  */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: var(--space-0);
+  font-family: var(--font-body);
+  color: var(--color-text);
+  background-color: var(--color-page-background);
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+  color: var(--color-text-title);
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: var(--space-0) var(--space-0) var(--space-2);
+}
+
+h3 {
+  font-size: 1.25rem;
+  margin: var(--space-2) var(--space-0) var(--space-1);
+}
+
+a {
+  color: var(--color-button-primary);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--color-button-secondary);
+}
